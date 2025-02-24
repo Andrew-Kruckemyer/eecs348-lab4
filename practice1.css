@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 20px;
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a:hover {
+    color: yellow;
+}
+
+img {
+    width: 250px;
+    height: auto;
+    margin: 20px 0;
+}
+
+video {
+    border: 2px solid black;
+}

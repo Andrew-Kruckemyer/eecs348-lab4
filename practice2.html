@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Update Page</title>
+    <link rel="stylesheet" href="update.css">
+</head>
+<body>
+    <h2>Change The Style.</h2>
+    <p id="paragraph">Change this</p><br>
+    <p> RGB (0-255) </p><br>
+
+    <label>Border R: <input type="number" id="border-r" min="0" max="255"></label><br>
+    <label>Border G: <input type="number" id="border-g" min="0" max="255"></label><br>
+    <label>Border B: <input type="number" id="border-b" min="0" max="255"></label><br>
+    <label>Border Width (px): <input type="number" id="border-width" min="0"></label><br>
+    <label>Background R: <input type="number" id="background-r" min="0" max="255"></label><br>
+    <label>Background G: <input type="number" id="background-g" min="0" max="255"></label><br>
+    <label>Background B: <input type="number" id="background-b" min="0" max="255"></label><br>
+    <button onclick="styleChange()">Update</button>
+
+    <script src="update.js"></script>
+</body>
+</html>
